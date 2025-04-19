@@ -1,7 +1,7 @@
-package Exp1.Coffee;
+package Exp2.Coffee;
 
 /**咖啡机类*/
-public class CoffeeBrewer extends Product {
+public class CoffeeBrewer extends Product{
 
     //成员变量
 

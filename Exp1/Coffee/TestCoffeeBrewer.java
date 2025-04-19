@@ -1,4 +1,4 @@
-package Coffee;
+package Exp1.Coffee;
 
 import  java.io.*;
 

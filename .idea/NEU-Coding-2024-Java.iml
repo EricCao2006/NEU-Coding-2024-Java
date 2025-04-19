@@ -3,9 +3,11 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Exp1" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Exp1/提供的代码" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/out/production/NEU-Coding-2024-Java/Coffee" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/Exp1/提供的代码" />
+      <excludeFolder url="file://$MODULE_DIR$/Exp2/提供的代码" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,4 +1,4 @@
-package Exp1.Coffee;
+package Exp2.Coffee;
 
 /**订单项目类*/
 public class OrderItem {
@@ -17,7 +17,7 @@ public class OrderItem {
      * @param initialQuantity 数量
      */
     public OrderItem(Product initialProduct,
-                     int initialQuantity){
+                 int initialQuantity){
         product = initialProduct;
         quantity = initialQuantity;
     }

@@ -1,4 +1,4 @@
-package Exp1.Coffee;
+package Exp2.Coffee;
 
 /**咖啡类*/
 public class Coffee extends Product {
