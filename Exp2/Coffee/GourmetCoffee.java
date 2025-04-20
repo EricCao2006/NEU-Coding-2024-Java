@@ -367,15 +367,18 @@ public class GourmetCoffee  {
 				count++;
 			}
 		}
-		stdOut.println("Number of orders that contains the product " + product.getCode());
+		stdOut.println("Number of orders that contain the product " + product.getCode() + ": " + count);
 	}
 
 	/**显示目录中每个产品的总销售数*/
 	public void displayTotalQuantityOfProducts() {
 		for (Product product : this.catalog) {
 			int totalQuantity = 0;
-			for (Order  order : this.sales) {
+			for (Order order : this.sales) {
 				OrderItem orderItem = order.getItem(product);
+				if (orderItem != null) {
+					totalQuantity += orderItem.getQuantity(); // 累加数量
+				}
 			}
 			stdOut.println(product.getCode() + " " + totalQuantity);
 		}
