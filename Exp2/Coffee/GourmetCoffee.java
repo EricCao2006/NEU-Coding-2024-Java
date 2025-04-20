@@ -367,7 +367,7 @@ public class GourmetCoffee  {
 				count++;
 			}
 		}
-		stdOut.println("There are " + count + " orders with the product " + product.getCode());
+		stdOut.println("Number of orders that contains the product " + product.getCode());
 	}
 
 	/**显示目录中每个产品的总销售数*/
@@ -377,8 +377,8 @@ public class GourmetCoffee  {
 			for (Order  order : this.sales) {
 				OrderItem orderItem = order.getItem(product);
 			}
+			stdOut.println(product.getCode() + " " + totalQuantity);
 		}
-		stdOut.println("The total quantity sold for each product is not available");
 	}
 
 	/**
