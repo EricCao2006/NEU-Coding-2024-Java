@@ -1,5 +1,4 @@
 package Exp3.Coffee;
-
 /**咖啡机类*/
 public class CoffeeBrewer extends Product {
 

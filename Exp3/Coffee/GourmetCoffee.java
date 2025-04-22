@@ -232,7 +232,6 @@ public class GourmetCoffee  {
 			} else if (choice == 3)  {
 				setSalesFormatter(XMLSalesFormatter.getSingletonInstance());
 			}
-			displaySales();
 			choice = getChoice();
 		}
 	}
