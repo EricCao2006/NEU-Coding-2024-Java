@@ -1,10 +1,14 @@
 package Exp2.Coffee;
 
-import java.io.*;
-import java.text.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.text.NumberFormat;
 
 /**
  * "美味咖啡"订单系统
+ * @version 2.0
  * @see Product
  * @see Coffee
  * @see CoffeeBrewer
@@ -33,8 +37,8 @@ public class GourmetCoffee  {
 	private Sales sales;
 
 	/**
-	 * 载入产品目录，启动！
-	 * @param args 智多星，无用[Doge]
+	 * 载入产品目录
+	 * @param args 无用
 	 * @throws IOException 一旦输入流有问题
 	 */
 	public static void main(String[] args) throws IOException{
@@ -345,7 +349,7 @@ public class GourmetCoffee  {
 
 		if (numOrders != 0) {
 			int orderNumber = 1;
-			for (Order  order : this.sales) {
+			for (Order order : this.sales) {
 				stdOut.println("Order " + orderNumber++);
 				for (OrderItem orderItem : order) {
 					stdOut.println("   " + orderItem.toString());

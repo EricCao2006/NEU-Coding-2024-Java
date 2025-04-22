@@ -1,4 +1,4 @@
-package Exp2.Coffee;
+package Exp3.Coffee;
 
 /**咖啡机类*/
 public class CoffeeBrewer extends Product {
@@ -32,11 +32,11 @@ public class CoffeeBrewer extends Product {
      * @param initialNumberOfCups 咖啡机杯数
      */
     public CoffeeBrewer(String initialCode,
-                    String initialDescription,
-                    double initialPrice,
-                    String initialModel,
-                    String initialWaterSupply,
-                    int initialNumberOfCups){
+                        String initialDescription,
+                        double initialPrice,
+                        String initialModel,
+                        String initialWaterSupply,
+                        int initialNumberOfCups){
         super(initialCode, initialDescription, initialPrice);
         this.model = initialModel;
         this.waterSupply = initialWaterSupply;

@@ -1,8 +1,3 @@
-package Exp2.Coffee;
-
-import Exp3.Coffee.Catalog;
-import Exp3.Coffee.Product;
-
 import  java.io.*;
 import  java.util.*;
 
